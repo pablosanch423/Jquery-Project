@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#top{
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    position: absolute;
+    z-index: 1;
+
+    margin-top: 25px ;
+    top: 0px;
+
+    background-color: #ffcc00ae;
+}
+
+#logo{
+    width: 120px;
+    height: 120px;
+
+}
+
+.nav-left{
+    position: absolute;
+    left: 50px;
+}
+
+.link{
+    color: white;
+
+    text-decoration: none;
+    text-transform:uppercase;
+
+    font-weight: 800;
+    font-size: 13px;
+
+    margin-left: 50px;
+}
+
+header{
+    width: 100%;
+    height: 50vh;
+
+    background-color: #4190dec2;
+
+    display: flex;
+    align-items: center;
+}
+
+h4{
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: white;
+
+    margin-top: 3%;
+    margin-left: 5.5%;
+}
+
+#txt-tick{
+    font-weight: 300;
+}
+
+#logotwo{
+    position: absolute;
+
+    width: 200px;
+    height: 200px;
+
+    margin-top: 3%;
+    right: 8.5%;
+
+    background-color: #4190dec2;
+}
+
+#main{
+    width: 100%;
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(to bottom, #4190dec2, #ffcc00ae 99%);
+}
+
+#main-area{
+    width: 90%;
+    height: 70vh;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+}
+
+#main-p{
+    margin-left: 3.5%;
+    margin-top: 2%;
+
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center ;
+}
+
+#ticket-accor{
+    display: flex;
+}
+
+#accordion{
+    width: 93%;
+    margin-left: 3.5%;
+}
+
+#name{
+    margin-left: 10%;
+    margin-top: .75%;
+}
+
+#tik-link{
+    margin-left: 50%;
+    margin-top: .75%;
+}
+
+#date{
+    margin-left: 2%;
+}
+
+#time{
+    font-size: smaller;
+}
+
+#ven{
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+#addy{
+    margin-top: 1%;
+}
+
+#state{
+    font-size: 14px;
+    margin-left: 6.2%;
+}
+
+#fek{
+    color: purple;
+}
+
+#sec-p{
+    margin-left: 3.5%;
+    margin-top: 2%;
+}
+
+#date-in{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 57.5%;
+}
+
+#tk-mas{
+    margin-top: -.75%;
+    padding: 20px;
+    z-index: 1;
+}
+
+#ban{
+    background-color: #ffcc00ae;
+
+    width: 100%;
+    height: 100vh;
+}

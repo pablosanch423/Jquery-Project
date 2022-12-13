@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#top{
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    position: absolute;
+    z-index: 1;
+
+    margin-top: 25px ;
+    top: 0px;
+
+    background-color: #4190dec2;
+}
+
+#logo{
+    width: 120px;
+    height: 120px;
+    z-index: 2;
+}
+
+.nav-left{
+    position: absolute;
+    left: 50px;
+}
+
+.link{
+    color: white;
+
+    text-decoration: none;
+    text-transform:uppercase;
+
+    font-weight: 800;
+    font-size: 13px;
+
+    margin-left: 50px;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    object-fit: cover;
+
+    position: relative;
+    top: 0%;
+
+    display: flex;
+    align-items: center;
+}
+
+#banner{
+    width: 100%;
+    height: 100vh;
+
+    filter:grayscale(100);
+    object-fit: cover;
+
+}
+
+
+h1{
+    position: absolute;
+    color:  #418FDE;
+
+    font-size: 58px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    text-shadow: 0 -6px #FFCD00;
+
+    left: 5.5%;
+}
+
+#btn{
+    position: absolute;
+    bottom: 32%;
+    left: 5.5%;
+    text-decoration: none;
+    padding: 30px;
+
+    box-shadow: #418FDE 6px 0px;
+
+    border-radius: 25px;
+
+    color: #418FDE;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    background-color: #FFCD00;
+}
+
+a:active{
+    color: #FFCD00;
+}
+
+#dialog{
+    background-color: #4190dec2;
+    overflow: hidden;
+}
+
+#ban{
+    background-color: #ffcc00ae;
+
+    width: 100%;
+    height: 100vh;
+}
